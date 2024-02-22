@@ -47,20 +47,17 @@ header{
     cursor: pointer;
     display: none;
 }
-h1{
+.contact h1{
     font-family: "Permanent Marker", cursive;
     font-size: 90px;
     line-height: 1;
     color: white;
-    margin: 0 0 45px;
-    position: absolute; 
-    top: 25%; 
-    left: 47%; 
-    transform: translate(-50%, -50%); /
+    margin-bottom: 30px;
+    margin-left: -135px;
 }
 .contact{
     padding-left: 40%;
-    padding-top: 18%;
+    padding-top: 11%;
 }
 .contact h4 {
     font-size: 18px;
@@ -137,12 +134,12 @@ h1{
     .navlist.open{
         right: 0;
     }
-    h1{
-         padding-left: 0%;
-    }
     .contact{
-        padding-top: 85%;
-        padding-left: 10%;
+        padding-top: 40%;
+        padding-left: 15%;
+    }
+    .contact h1{
+        margin-left:-40px;
     }
     body{
         background-image: url(https://i.pinimg.com/564x/85/24/ff/8524ff10c4b112da9b8b541def0d9479.jpg);
@@ -150,11 +147,6 @@ h1{
 }}
 
 @media (max-width :680px){
-    h1{
-        font-size: 70px;
-        left:82%;
-        top: 30%;
-    }
     body{
         background-image: url(https://i.pinimg.com/564x/85/24/ff/8524ff10c4b112da9b8b541def0d9479.jpg);
 
