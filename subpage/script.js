@@ -11,6 +11,5 @@ const sr = ScrollReveal ({
     reset:true
 });
 sr.reveal('h1',{delay:200, origin :'top'});
-sr.reveal('.tmax1-text',{delay:400, origin :'top'});
-sr.reveal('.Telephone',{delay:400, origin :'top'});
+sr.reveal('.contact',{delay:400, origin :'top'});
 sr.reveal('.icons',{delay:500, origin :'left'});
