@@ -8,7 +8,7 @@
 }
 body{
     background: black;
-    background-image:url(https://images4.alphacoders.com/713/713950.jpg);
+    background-image: url(https://images5.alphacoders.com/593/593090.jpg);
 }
 header{
     position: fixed;
@@ -58,49 +58,23 @@ h1{
     left: 47%; 
     transform: translate(-50%, -50%); /
 }
-.tmax1{
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    display: flex;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 15rem;
+.contact{
+    padding-left: 40%;
+    padding-top: 18%;
 }
-section{
-    padding: 0 30%;
+.contact h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 80px;
 }
-.tmax1-text h5 {
+.contact h5{
     font-size: 14px;
     font-weight:  400;
     color: white;
     margin-bottom:  40px;
-}
-.tmax1-text h1{
-    font-family: "Permanent Marker", cursive;
-    font-size: 90px;
-    line-height: 1;
-    color: white;
-    margin: 0 0 45px;
-}
-.tmax1-text h4{
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 10px;
-}
-.Telephone h5 {
-    font-size: 14px;
-    font-weight:  400;
-    color: white;
-    margin-bottom:  40px;
-}
-.Telephone h4{
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 10px;
+
 }
 .icons{
     position: absolute;
@@ -126,50 +100,18 @@ section{
   }
 }
 @media (max-width :1460px){
-    section{
-        padding: 0 12%;
-        transition: .2s;
-    }
-}
-@media (max-width :1340px){
-    .tmax1-img img{
-        width: 100%;
-        height: auto;
 
-    }
-    .tmax1-text h1{
-        font-size: 70px;
-        margin: 0 0 30px;
-    }
-    .tmax1-text h5{
-        margin-bottom: 25px;
-    }
+}
+@media (max-width :1366px){
+
 }
 @media (max-width :1195px){
-    section{
-        padding: 0 3%;
-        transition: .2s;
-    }
-    .tmax1-text{
-        padding-top: 115px ;
-    }
-    .tmax1-img{
-        text-align: center;
-    }
-    .tmax1-img img{
-        width: 560px;
-        height: auto;
-    }
-    .tmax1{
-        height: 100%;
-        gap: 1rem;
-        grid-template-columns: 1fr;
-    }
+
     .icons{
         display: none;
     }
 }
-@media (max-width :990px){
+@media (max-width :914px){
     #menu-icon{
         display: block;
     }
@@ -195,12 +137,26 @@ section{
     .navlist.open{
         right: 0;
     }
+    h1{
+         padding-left: 0%;
+    }
+    .contact{
+        padding-top: 85%;
+        padding-left: 10%;
+    }
+    body{
+        background-image: url(https://i.pinimg.com/564x/85/24/ff/8524ff10c4b112da9b8b541def0d9479.jpg);
 
-}
+}}
 
 @media (max-width :680px){
-    .tmax1-img img{
-        width: 100%;
-        height: auto;
+    h1{
+        font-size: 70px;
+        left:82%;
+        top: 30%;
     }
+    body{
+        background-image: url(https://i.pinimg.com/564x/85/24/ff/8524ff10c4b112da9b8b541def0d9479.jpg);
+
+}
 }
