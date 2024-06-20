@@ -234,11 +234,33 @@ justify-content: center
       transition: .2s;
     }
   }
-  @media (max-width :1460px){
+  @media (max-width :1462px){
       section{
           padding: 0 12%;
           transition: .2s;
       }
+     
+      .tmax1-text{
+       
+        margin-left: -50%;
+    }
+    .tmax1-text2{
+        margin-left: -10%;
+    }
+    .p{
+        
+        
+        margin-left: -20%;
+    }
+    .card{
+        margin-left: -10%;
+
+    }
+    .myVideo4{
+        margin-left: -20%;
+        border-radius: 0%;
+    }
+
   }
   @media (max-width :1340px){
       .tmax1-text h1{
