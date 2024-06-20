@@ -273,7 +273,7 @@ margin-bottom: 30%;
       .myVideo4{
         border-radius: 0%;
         margin-bottom: 30%;
-        margin-left: -10%;
+       
       }
       .icons{
           display: none;
@@ -284,15 +284,13 @@ margin-bottom: 30%;
       .container{
         flex-direction: column;
         margin-top: -50%;
-        margin-right: -50%;
+        
       }
       .cards{
         margin-right: -13%;
         flex-direction: column-reverse;
       }
-      .img{
-        margin-left:0%;
-      }
+   
       
 
   }
